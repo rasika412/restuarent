@@ -1,0 +1,75 @@
+body{
+    background: url("res.jpeg")center center fixed;
+    background-size: cover;
+
+
+}
+.heading{
+    
+    font-size: 4rem;
+    text-shadow:  1px 1px 0 #04269f, 2px 2px 0 #000000;
+    text-align:center;
+    
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+  padding: 85%S;
+  height: 8vh;
+  width: 98vw;
+  font-family: "Cormorant SC";
+  margin-top: 1px;
+  border: 2px white;
+  border-radius: 1px solid rgb(255, 255, 255);
+  
+}
+.navbar a{
+  float: left;
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 12px;
+  margin-top: auto;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background-color: rgba(255, 255, 255, 0.87);
+  box-shadow: 0 0 5px black, 0 0 5px black;
+  border-radius: 2px;
+  box-sizing: border-box;
+  transition: 1s;
+
+}
+img{
+    height: 50px;width: 50px;
+    display: block;
+   margin: auto;
+    
+}
+.boxers{
+  padding: 0 80px;
+  padding-right: 0;
+ 
+}
+.boxers-inner{
+  margin-top: 100px;
+}
+.boxers-inner a{
+  display: inline-block;
+  width: 25%;
+  padding: 25px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  border: 1px solid #cacaca;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #cacaca;
+}
+
+.boxers-inner img {
+  
+  width: 100%;
+  height: 25%;
+  
+}
+
+
